@@ -1,0 +1,15 @@
+{
+     "AdminDetails" : 
+     {
+          "Username" : "Admin",
+          "Password" : "admin123"
+     },
+
+     "UserDetails" : 
+     {
+          "Username" : "",
+          "Password" : ""
+     },
+     "LoginPageUrl" : "web/index.php/auth/login"
+
+}

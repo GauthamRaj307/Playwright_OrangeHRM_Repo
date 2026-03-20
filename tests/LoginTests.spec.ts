@@ -1,6 +1,6 @@
-import  {test,expect} from '@playwright/test'
+import  {test,expect} from '../utils/customFixture'
 import data from "../testData/testData.json"
-import { authenticationFlow } from '../flows/Auth.flow'
+import { authenticationFlow } from '../pages/Auth'
 
 test.describe('Login Tests', ()=>
 {

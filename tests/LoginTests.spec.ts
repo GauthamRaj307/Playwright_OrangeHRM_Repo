@@ -12,3 +12,4 @@ test.describe('Login Tests', ()=>
           expect(await auth.UserLogin(data.AdminDetails.Username,data.AdminDetails.Password )).toBeTruthy();
      })
 })
+//exam

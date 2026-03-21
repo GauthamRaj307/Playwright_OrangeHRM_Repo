@@ -1,5 +1,4 @@
 import {Locator, Page} from '@playwright/test'
-import data from '../testData/testData.json'
 
 export class authenticationFlow
 {

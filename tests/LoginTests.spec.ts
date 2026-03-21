@@ -11,9 +11,10 @@ test.describe('Login Tests', () => {
 
 test.describe("Logout Test",async()=>
 {
-     test('@Regression - Logout user', async({ page, authObj })=>
+     test.only('@Regression - Logout user', async({ page, dashObj,authObj })=>
      {
-          
+          await authObj.NavigatingToPage(process.env.BASE_URL as string);
+          await authObj.UserLogin(process.env.ADMIN_USERNAME as string, process.env.ADMIN_PASSWORD as string);
+          expect(await dashObj.LogingoutUser()).toBe(process.env.BASE_URL);
      })
 })
-//exam

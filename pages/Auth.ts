@@ -34,6 +34,7 @@ export class authenticationFlow
           await this.userNameField.fill(username);
           await this.passwordField.fill(password);
           await this.loginButton.click();
+          await this.page.waitForLoadState('networkidle');
           return true;
      }
 }

@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","22761","@Regression - Logout user","chromium","2026-03-23","passed","2026-03-23","Logout Test","LoginTests.spec.ts","",""
+"","15040","@Regression - Admin Login with valid Credentials","chromium","2026-03-23","passed","2026-03-23","Login Tests","LoginTests.spec.ts","",""

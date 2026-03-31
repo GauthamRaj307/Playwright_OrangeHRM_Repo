@@ -1,0 +1,1 @@
+[{"uid":"7a9c2bcd3f053ca3","name":"@Regression - Logout user","time":{"start":1774238285234,"stop":1774238307995,"duration":22761},"status":"passed","severity":"normal"},{"uid":"e795063d9288e823","name":"@Regression - Admin Login with valid Credentials","time":{"start":1774238270024,"stop":1774238285064,"duration":15040},"status":"passed","severity":"normal"}]
